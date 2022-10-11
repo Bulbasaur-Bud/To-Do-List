@@ -1,6 +1,7 @@
 {
-  "name": "todolist-v2-completed-app",
+  "name": "project-2",
   "version": "1.0.0",
+  "description": "This is my Project 2 App",
   "main": "app.js",
   "dependencies": {
     "accepts": "^1.3.8",
@@ -9,7 +10,7 @@
     "async": "^3.2.4",
     "balanced-match": "^1.0.2",
     "base64-js": "^1.5.1",
-    "body-parser": "^1.20.0",
+    "body-parser": "^1.20.1",
     "brace-expansion": "^1.1.11",
     "bson": "^4.7.0",
     "buffer": "^5.7.1",
@@ -73,7 +74,7 @@
     "path-to-regexp": "^0.1.7",
     "proxy-addr": "^2.0.7",
     "punycode": "^2.1.1",
-    "qs": "^6.10.3",
+    "qs": "^6.11.0",
     "range-parser": "^1.2.1",
     "raw-body": "^2.5.1",
     "safe-buffer": "^5.2.1",
@@ -99,13 +100,15 @@
     "whatwg-url": "^11.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.generalassemb.ly/praphan/Project-2.git"
   },
   "author": "",
   "license": "ISC",
   "engines": {
     "node": "16.17.0"
-  },
-  "description": ""
+  }
 }
